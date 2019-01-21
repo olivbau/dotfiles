@@ -161,36 +161,3 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
-
-set_from_resource $backgr     background
-set_from_resource $foregr     foreground
-set_from_resource $color0     color0
-set_from_resource $color1     color1
-set_from_resource $color2     color2
-set_from_resource $color3     color3
-set_from_resource $color4     color4
-set_from_resource $color5     color5
-set_from_resource $color6     color6
-set_from_resource $color7     color7
-set_from_resource $color8     color8
-set_from_resource $color9     color9
-set_from_resource $color10    color10
-set_from_resource $color11    color11
-set_from_resource $color12    color12
-set_from_resource $color13    color13
-set_from_resource $color14    color14
-set_from_resource $color15    color15
-
-
-# hide/unhide i3status bar
-bindsym $mod+m bar mode toggle
-
-# Theme colors
-# class                   border   backgr.   text       indic.   child_border
-  client.focused          $color11 $color11  $foregr    #FDF6E3
-  client.focused_inactive #454948  #454948   $foregr    #454948
-  client.unfocused        #454948  #454948   $foregr    #454948
-  client.urgent           $color5  #FDF6E3   $foregr    #268BD2
-  client.placeholder      #000000  #0c0c0c   #ffffff    #000000 
-
-  client.background       $backgr
